@@ -10,4 +10,5 @@
 #
 # After installing playwright via pip, browser binaries must also be installed:
 # playwright install
-../lc_python_core
+git+https://github.com/truebillyblue/lC.ComfyUI_epistemic_nodes
+google-adk
