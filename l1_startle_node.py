@@ -163,5 +163,3 @@ class LcStartleNode:
             trace_id_output = str(trace_id_output) # Ensure trace_id is a string
 
         return (mada_seed_output, trace_id_output)
-
-```
