@@ -1,0 +1,13 @@
+# This custom node package relies on the lc_python_core package.
+# Currently, lc_python_core must be installed separately or made available
+# in the PYTHONPATH (e.g., by adding 'lab/frontends/' to PYTHONPATH).
+# Future work will involve making lc_python_core a pip-installable package.
+#
+# For lc_python_core itself, the following dependencies are needed by the services these nodes use:
+# pydantic>=1.10,<2.0 # Assuming Pydantic v1 for now due to potential 'constr' issues, adjust if v2 is confirmed compatible
+# requests>=2.20.0
+# playwright>=1.20.0
+#
+# After installing playwright via pip, browser binaries must also be installed:
+# playwright install
+../lc_python_core
