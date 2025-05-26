@@ -109,5 +109,3 @@ class CreatePbiNode:
         
         print(f"CreatePbiNode: PBI {new_pbi_uid} created.")
         return (new_pbi_uid,)
-
-```

@@ -2,7 +2,7 @@ import json
 from typing import Optional, Tuple, Dict, Any
 
 # Attempt to import the backend service.
-# The path '....lc_python_core.services.lc_mem_service' suggests ComfyUI custom nodes
+# The path 'lc_python_core.services.lc_mem_service' suggests ComfyUI custom nodes
 # are loaded in a way that '....' navigates up from a deeper structure.
 # This might need adjustment based on actual ComfyUI import behavior for custom nodes
 # located outside the main ComfyUI directory structure if this file is symlinked or directly placed.
