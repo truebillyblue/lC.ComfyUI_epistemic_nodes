@@ -2,7 +2,7 @@ import json
 from typing import Optional, Dict, Any
 
 # Assuming mock_lc_core_services are accessible via this path
-from ....lc_python_core.services.lc_mem_service import mock_lc_mem_core_ensure_uid, mock_lc_mem_core_create_object
+from lc_python_core.services.lc_mem_service import mock_lc_mem_core_ensure_uid, mock_lc_mem_core_create_object
 
 class StoreMadaObjectNode:
     CATEGORY = "LearntCloud/MADA"

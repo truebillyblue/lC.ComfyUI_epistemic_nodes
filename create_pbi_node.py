@@ -1,6 +1,6 @@
 from typing import Optional, List, Dict, Any
 import json
-from ....lc_python_core.services.lc_mem_service import create_pbi
+from lc_python_core.services.lc_mem_service import create_pbi
 # Potentially import PBI field enums if defined in a central schema place for ComfyUI dropdowns
 # For now, using string inputs for enums and validating/casting in Python if necessary.
 

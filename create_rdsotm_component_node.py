@@ -1,5 +1,5 @@
 from typing import Optional, List, Dict, Any
-from ....lc_python_core.sops.meta_sops.sop_rdsotm_management import create_rdsotm_component
+from lc_python_core.sops.meta_sops.sop_rdsotm_management import create_rdsotm_component
 
 # Enum-like class for ComfyUI dropdown
 class RDSOTMComponentTypes:

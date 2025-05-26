@@ -1,5 +1,5 @@
 from typing import Optional, List
-from ....lc_python_core.sops.meta_sops.sop_oia_cycle_management import add_application_to_cycle
+from lc_python_core.sops.meta_sops.sop_oia_cycle_management import add_application_to_cycle
 
 class AddApplicationNode:
     CATEGORY = "LearntCloud/OIA"

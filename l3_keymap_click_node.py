@@ -1,5 +1,5 @@
-from ....lc_python_core.sops.sop_l3_keymap_click import keymap_click_process
-from ....lc_python_core.schemas.mada_schema import MadaSeed # For type hinting
+from lc_python_core.sops.sop_l3_keymap_click import keymap_click_process
+from lc_python_core.schemas.mada_schema import MadaSeed # For type hinting
 
 class LcKeymapClickNode:
     CATEGORY = "LearntCloud/EpistemicOSI"

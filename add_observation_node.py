@@ -1,5 +1,5 @@
 from typing import Optional
-from ....lc_python_core.sops.meta_sops.sop_oia_cycle_management import add_observation_to_cycle
+from lc_python_core.sops.meta_sops.sop_oia_cycle_management import add_observation_to_cycle
 
 class AddObservationNode:
     CATEGORY = "LearntCloud/OIA"

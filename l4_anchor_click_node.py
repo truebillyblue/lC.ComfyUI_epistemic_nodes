@@ -1,6 +1,6 @@
 from typing import Optional
-from ....lc_python_core.sops.sop_l4_anchor_click import anchor_click_process
-from ....lc_python_core.schemas.mada_schema import MadaSeed # For type hinting
+from lc_python_core.sops.sop_l4_anchor_click import anchor_click_process
+from lc_python_core.schemas.mada_schema import MadaSeed # For type hinting
 
 class LcAnchorClickNode:
     CATEGORY = "LearntCloud/EpistemicOSI"

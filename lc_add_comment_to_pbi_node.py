@@ -4,7 +4,7 @@ from typing import Optional, Tuple, Dict, Any
 # Attempt to import the backend service
 try:
     # Adjust path based on actual ComfyUI loading and project structure
-    from ....lc_python_core.services.lc_mem_service import add_comment_to_pbi
+    from lc_python_core.services.lc_mem_service import add_comment_to_pbi
 except ImportError:
     print("\n!!! lc_add_comment_to_pbi_node.py: Failed to import add_comment_to_pbi from default path. !!!")
     print("!!! Ensure lc_python_core is in PYTHONPATH or adjust import path. !!!\n")

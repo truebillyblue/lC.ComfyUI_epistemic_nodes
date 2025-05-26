@@ -1,8 +1,8 @@
 from typing import Optional, Dict, Any
 import json # For potentially summarizing complex objects as JSON string
 
-from ....lc_python_core.sops.sop_l7_apply_done import apply_done_process
-from ....lc_python_core.schemas.mada_schema import MadaSeed, L7EncodedApplication, SeedQAQC # For type hinting
+from lc_python_core.sops.sop_l7_apply_done import apply_done_process
+from lc_python_core.schemas.mada_schema import MadaSeed, L7EncodedApplication, SeedQAQC # For type hinting
 
 class LcApplyDoneNode:
     CATEGORY = "LearntCloud/EpistemicOSI"

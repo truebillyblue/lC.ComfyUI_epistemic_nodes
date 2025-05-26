@@ -1,5 +1,5 @@
 import json
-from ....lc_python_core.sops.meta_sops.sop_oia_cycle_management import get_oia_cycle_state
+from lc_python_core.sops.meta_sops.sop_oia_cycle_management import get_oia_cycle_state
 
 class ViewOiaCycleNode:
     CATEGORY = "LearntCloud/OIA"

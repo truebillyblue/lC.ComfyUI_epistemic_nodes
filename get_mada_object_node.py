@@ -3,7 +3,7 @@ from typing import Optional, Dict, Any
 
 # Assuming mock_lc_core_services are accessible via this path
 # This might need adjustment based on actual lc_python_core structure and PYTHONPATH
-from ....lc_python_core.services.lc_mem_service import mock_lc_mem_core_get_object
+from lc_python_core.services.lc_mem_service import mock_lc_mem_core_get_object
 
 class GetMadaObjectNode:
     CATEGORY = "LearntCloud/MADA" # New category for MADA related nodes

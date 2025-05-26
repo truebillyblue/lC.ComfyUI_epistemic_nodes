@@ -4,7 +4,7 @@ from typing import Optional, Tuple, Dict, Any
 # Attempt to import the backend service
 try:
     # Adjust path based on actual ComfyUI loading and project structure
-    from ....lc_python_core.services.lc_api_agent_service import execute_api_call
+    from lc_python_core.services.lc_api_agent_service import execute_api_call
 except ImportError:
     print("\n!!! lc_api_llm_agent_node.py: Failed to import execute_api_call from default path. !!!")
     print("!!! Ensure lc_python_core is in PYTHONPATH or adjust import path. !!!\n")

@@ -1,6 +1,6 @@
 from typing import Optional, List, Dict, Any
 import json
-from ....lc_python_core.services.lc_mem_service import mock_lc_mem_core_query_objects, PBI_OBJECT_TYPE
+from lc_python_core.services.lc_mem_service import mock_lc_mem_core_query_objects, PBI_OBJECT_TYPE
 
 class QueryPbisNode:
     CATEGORY = "LearntCloud/Backlog"

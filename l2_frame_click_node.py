@@ -1,6 +1,6 @@
 from typing import Optional, Dict, Any
-from ....lc_python_core.sops.sop_l2_frame_click import frame_click_process
-from ....lc_python_core.schemas.mada_schema import MadaSeed # For type hinting
+from lc_python_core.sops.sop_l2_frame_click import frame_click_process
+from lc_python_core.schemas.mada_schema import MadaSeed # For type hinting
 
 class LcFrameClickNode:
     CATEGORY = "LearntCloud/EpistemicOSI"

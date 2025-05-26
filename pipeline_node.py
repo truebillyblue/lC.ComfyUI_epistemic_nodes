@@ -3,14 +3,14 @@ from datetime import datetime, timezone
 import json
 
 # Import all SOP processes and the MadaSeed schema
-from ....lc_python_core.schemas.mada_schema import MadaSeed
-from ....lc_python_core.sops.sop_l1_startle import startle_process
-from ....lc_python_core.sops.sop_l2_frame_click import frame_click_process
-from ....lc_python_core.sops.sop_l3_keymap_click import keymap_click_process
-from ....lc_python_core.sops.sop_l4_anchor_click import anchor_click_process
-from ....lc_python_core.sops.sop_l5_field_click import field_click_process
-from ....lc_python_core.sops.sop_l6_reflect_boom import reflect_boom_process
-from ....lc_python_core.sops.sop_l7_apply_done import apply_done_process
+from lc_python_core.schemas.mada_schema import MadaSeed
+from lc_python_core.sops.sop_l1_startle import startle_process
+from lc_python_core.sops.sop_l2_frame_click import frame_click_process
+from lc_python_core.sops.sop_l3_keymap_click import keymap_click_process
+from lc_python_core.sops.sop_l4_anchor_click import anchor_click_process
+from lc_python_core.sops.sop_l5_field_click import field_click_process
+from lc_python_core.sops.sop_l6_reflect_boom import reflect_boom_process
+from lc_python_core.sops.sop_l7_apply_done import apply_done_process
 
 class LcEpistemicPipelineNode:
     CATEGORY = "LearntCloud/EpistemicOSI"

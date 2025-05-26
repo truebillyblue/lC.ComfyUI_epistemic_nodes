@@ -3,7 +3,7 @@ from typing import Optional, Tuple, Dict, Any
 
 # Attempt to import the backend service
 try:
-    from ....lc_python_core.services.lc_mem_service import get_pbi_details
+    from lc_python_core.services.lc_mem_service import get_pbi_details
 except ImportError:
     print("\n!!! lc_get_pbi_details_node.py: Failed to import get_pbi_details from default path. !!!")
     print("!!! Ensure lc_python_core is in PYTHONPATH or adjust import path. !!!\n")

@@ -8,7 +8,7 @@ from typing import Optional, Tuple, Dict, Any
 # located outside the main ComfyUI directory structure if this file is symlinked or directly placed.
 # For now, assuming a standard Python import mechanism relative to some base in sys.path.
 try:
-    from ....lc_python_core.services.lc_mem_service import write_mada_object
+    from lc_python_core.services.lc_mem_service import write_mada_object
 except ImportError:
     # Fallback for local development or if the path assumption is wrong.
     # This allows the node to load in ComfyUI even if the backend isn't immediately found,

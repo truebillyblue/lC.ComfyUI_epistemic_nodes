@@ -4,7 +4,7 @@ from typing import Optional, Tuple, Dict, Any
 # Attempt to import the backend service
 try:
     # Adjust path based on actual ComfyUI loading and project structure
-    from ....lc_python_core.services.lc_mem_service import link_pbis 
+    from lc_python_core.services.lc_mem_service import link_pbis 
 except ImportError:
     print("\n!!! lc_link_pbi_node.py: Failed to import link_pbis from default path. !!!")
     print("!!! Ensure lc_python_core is in PYTHONPATH or adjust import path. !!!\n")

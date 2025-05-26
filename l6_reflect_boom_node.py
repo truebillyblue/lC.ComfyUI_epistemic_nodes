@@ -1,8 +1,8 @@
 from typing import Optional, Dict, Any
 import json # For potentially summarizing complex objects as JSON string
 
-from ....lc_python_core.sops.sop_l6_reflect_boom import reflect_boom_process
-from ....lc_python_core.schemas.mada_schema import MadaSeed, L6ReflectionPayloadObj # For type hinting
+from lc_python_core.sops.sop_l6_reflect_boom import reflect_boom_process
+from lc_python_core.schemas.mada_schema import MadaSeed, L6ReflectionPayloadObj # For type hinting
 
 class LcReflectBoomNode:
     CATEGORY = "LearntCloud/EpistemicOSI"

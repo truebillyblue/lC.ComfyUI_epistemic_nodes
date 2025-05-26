@@ -1,6 +1,6 @@
 from typing import Optional
-from ....lc_python_core.sops.sop_l5_field_click import field_click_process
-from ....lc_python_core.schemas.mada_schema import MadaSeed # For type hinting
+from lc_python_core.sops.sop_l5_field_click import field_click_process
+from lc_python_core.schemas.mada_schema import MadaSeed # For type hinting
 
 class LcFieldClickNode:
     CATEGORY = "LearntCloud/EpistemicOSI"

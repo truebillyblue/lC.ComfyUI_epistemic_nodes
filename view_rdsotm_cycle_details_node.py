@@ -1,6 +1,6 @@
 import json
 from typing import Optional
-from ....lc_python_core.sops.meta_sops.sop_rdsotm_management import get_rdsotm_cycle_details
+from lc_python_core.sops.meta_sops.sop_rdsotm_management import get_rdsotm_cycle_details
 
 class ViewRDSOTMCycleDetailsNode:
     CATEGORY = "LearntCloud/RDSOTM"

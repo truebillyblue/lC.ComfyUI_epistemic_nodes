@@ -1,5 +1,5 @@
 from typing import Optional
-from ....lc_python_core.sops.meta_sops.sop_rdsotm_management import initiate_rdsotm_cycle
+from lc_python_core.sops.meta_sops.sop_rdsotm_management import initiate_rdsotm_cycle
 
 class InitiateRDSOTMCycleNode:
     CATEGORY = "LearntCloud/RDSOTM"
