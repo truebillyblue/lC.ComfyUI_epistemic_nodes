@@ -22,7 +22,7 @@ try:
 except ImportError as e1:
     print(f"[LcStartleNode] Relative import failed: {e1}. Trying direct import assuming lC_pythonCore is in sys.path.")
     try:
-        from lC_pythonCore.mada_seed_types import ( # Direct import
+        from lc_python_core.mada_seed_types import ( # Direct import, corrected case
             MadaSeed, RawSignalItem, L1StartleContext, SignalComponentMetadataL1, L1Trace,
             SeedContent, TraceMetadata, L1StartleReflexContainer,
             L2FrameTypeContainer, L3SurfaceKeymapContainer, L4AnchorStateContainer,
@@ -441,7 +441,7 @@ def startle_process_py(input_event: Dict[str, Any]) -> MadaSeed:
         return error_seed_shell
 
 class LcStartleNode:
-    RETURN_TYPES = ("MADA_SEED", "STRING",) 
+    RETURN_TYPES = ("STRING", "STRING",) 
     RETURN_NAMES = ("mada_seed_L1", "trace_id",)
     FUNCTION = "execute"
 

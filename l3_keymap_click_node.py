@@ -1,3 +1,4 @@
+import asyncio # Added to run the async keymap_click_process
 from lc_python_core.sops.sop_l3_keymap_click import keymap_click_process
 from lc_python_core.schemas.mada_schema import MadaSeed # For type hinting
 
@@ -20,8 +21,8 @@ class LcKeymapClickNode:
         print(f"LcKeymapClickNode: Calling keymap_click_process with mada_seed.")
         
         # Call the L3 SOP function from lc_python_core
-        # keymap_click_process is expected to take MadaSeed and return a MadaSeed object
-        mada_seed_result: MadaSeed = keymap_click_process(mada_seed_input=mada_seed_in)
+        # keymap_click_process is now an async function, so we need asyncio.run()
+        mada_seed_result: MadaSeed = asyncio.run(keymap_click_process(mada_seed_input=mada_seed_in))
         
         print(f"LcKeymapClickNode: keymap_click_process returned.")
         return (mada_seed_result,)

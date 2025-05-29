@@ -26,8 +26,12 @@ from .lc_link_pbi_node import LcLinkPbiNode # New import for Link PBI node
 from .lc_add_comment_to_pbi_node import LcAddCommentToPbiNode # New import for Add Comment node
 from .lc_api_llm_agent_node import LcApiLlmAgentNode # New import for API LLM Agent node
 from .lc_web_llm_agent_node import LcWebLlmAgentNode # New import for Web LLM Agent node
+from .lc_adk_config_node import LcADKConfigNode # Import for ADK Config Node
+from .lc_adk_gui_interaction_node import LcADKGuiInteractionNode # Import for ADK GUI Interaction Node
 
 NODE_CLASS_MAPPINGS = {
+    "LcADKConfigNode": LcADKConfigNode, # ADK Config Node
+    "LcADKGuiInteractionNode": LcADKGuiInteractionNode, # ADK GUI Interaction Node
     "LcStartleNode": LcStartleNode,
     "LcFrameClickNode": LcFrameClickNode,
     "LcKeymapClickNode": LcKeymapClickNode,
@@ -59,6 +63,8 @@ NODE_CLASS_MAPPINGS = {
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
+    "LcADKConfigNode": "ADK Configuration Node", # ADK Config Node
+    "LcADKGuiInteractionNode": "ADK GUI Interaction Node", # ADK GUI Interaction Node
     "LcStartleNode": "lC L1 Startle",
     "LcFrameClickNode": "lC L2 FrameClick",
     "LcKeymapClickNode": "lC L3 KeymapClick",
